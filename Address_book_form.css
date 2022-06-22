@@ -1,4 +1,4 @@
-/* -----UC1------ */
+/* -----UC1.1------ */
 body{
     width: auto;
     height:100%;
@@ -39,7 +39,7 @@ body{
 .book-text{
     color: black;
 }
-/* -----UC2------ */
+/* -----UC1.2------ */
 .form-content {
     min-height: calc(50% - 100px);
     background-color: white;
@@ -83,7 +83,7 @@ body{
     text-transform: uppercase;
     opacity: 1;
 }
- /* -----UC3------ */
+ /* -----UC1.3------ */
 .row-content{
     display:flex;
     flex-direction:row;
@@ -123,4 +123,11 @@ input[type=text]{
     border-color: light black;
     margin: 30px;
     padding: 8px;
+}
+ /* -----UC1.4------ */
+error-output {
+    margin-left: 10px;
+    font-size: 14px;
+    font-style: italic;
+    color: red;
 }
