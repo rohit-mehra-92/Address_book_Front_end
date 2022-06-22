@@ -17,7 +17,7 @@ body{
 }
 
 .logo-content{ 
-    font-size: 20px;
+    font-size: 22px;
     font-family: sans-serif;
     display: flex;
     flex-direction: row;
@@ -29,7 +29,7 @@ body{
 }
 .add-text{
     font: normal bold 100px/155px ;
-    font-family: sans-serif;
+    font-family: Roboto;
     letter-spacing: 0px;
     color: blue;
     text-transform: capitalize;
@@ -131,3 +131,37 @@ error-output {
     font-style: italic;
     color: red;
 }
+/* -----UC1.5------ */
+.add-reset{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.button{
+    font-size: 20px;
+    font-family: Roboto;
+    letter-spacing: 0px;
+    color: black;
+    border: none;
+    opacity: 1;
+    background: transparent;
+    font-weight: 400;
+    min-width: 100px;
+    padding: 3px 3px;
+    border: 0px solid black;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px 0px
+}
+.submitButton{
+    border-radius: 5px;
+    margin-left: 50%;
+}
+
+.resetButton{
+    border-radius: 5px;
+    margin-right:20% ;
+}
+
+*{box-sizing: border-box;}
