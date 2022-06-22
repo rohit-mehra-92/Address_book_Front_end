@@ -1,0 +1,41 @@
+/* -----UC1------ */
+body{
+    width: auto;
+    height:100%;
+}
+
+.header{
+    padding: 50px 0;
+    background-color: blueviolet;
+}
+
+.header-front{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 0px solid orange;
+}
+
+.logo-content{ 
+    font-size: 20px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    border: 0px solid orange;
+    border-width:80% ; 
+    margin-left: 5%;
+
+}
+.add-text{
+    font: normal bold 100px/155px ;
+    font-family: sans-serif;
+    letter-spacing: 0px;
+    color: blue;
+    text-transform: capitalize;
+    margin-left: 10px;
+   }
+
+.book-text{
+    color: black;
+}
