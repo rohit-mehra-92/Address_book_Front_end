@@ -33,6 +33,9 @@ window.addEventListener("DOMContentLoaded", (event) => {
     }
     document.querySelector("#table-display").innerHTML = innerHtml;
   };
+  const getContactFromLocalStorage = () =>{
+    return localStorage.getItem('ContactList') ? JSON.parse(localStorage.getItem('ContactList')) : []
+  }
   
   let contactList = [
     {
@@ -44,13 +47,4 @@ window.addEventListener("DOMContentLoaded", (event) => {
       _state: "Madhya pradesh",
       _zip: "452020",
     },
-    {
-      _id: 2,
-      _name: "Karan mehra",
-      _phoneNumber: "8319425481",
-      _address: "Indira Nagar",
-      _city: "Rewa",
-      _state: "Madhya pradesh",
-      _zip: "486001",
-    },
-  ];
+];
