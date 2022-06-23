@@ -67,7 +67,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
             let contact =  createContact();
             createAndUpdateStorage(contact);
         }catch(error){
-            return;
+            alert (error);
         }
     }
 
