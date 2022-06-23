@@ -54,3 +54,13 @@ const remove = (node) => {
     createInnerHtml();
     window.location.replace("Address_book_home.html");
   }
+
+  const update = (node) => {
+    let contactToEdit = contactList.find(editContact => editContact._id == node.id);
+    if (!contactToEdit) {
+      return;
+    }
+    localStorage.setItem('contactEdit', JSON.stringify(contactToEdit));
+    window.location.replace(site_properties.add_contacts_page);
+  }
+
